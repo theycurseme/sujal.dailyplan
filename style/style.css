@@ -1,15 +1,51 @@
 body {
   font-family: Arial, sans-serif;
+  background: #f5f7fb;
   padding: 20px;
 }
 
-.day {
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
+h1 {
+  text-align: center;
 }
 
-.slot {
-  margin-left: 10px;
-  padding: 5px 0;
+.day {
+  margin-bottom: 30px;
+}
+
+.day h2 {
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-left: 6px solid #6c63ff;
+}
+
+.card.lab {
+  border-left-color: #ff9800;
+}
+
+.subject {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.time {
+  margin-top: 6px;
+  color: #555;
+}
+
+.room {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #777;
 }
