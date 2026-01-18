@@ -3,13 +3,13 @@
     {
       "time": "12:30-1:30",
       "short": "DPI",
-      "subject": "Digital Principles & Interfaces",
+      "subject": "Digital public infrastructure",
       "room": "NC-2 | D1 B2"
     },
     {
       "time": "2:30-3:30",
       "short": "FEET",
-      "subject": "Fundamentals of Electrical Engineering",
+      "subject": "Fundamentals of Electronics Engineering",
       "room": "NC-8 | D2 B3"
     },
     {
@@ -24,20 +24,20 @@
     {
       "time": "10:30-12:30",
       "short": "CS LAB",
-      "subject": "Computer Science Laboratory",
+      "subject": "Commuincation skill Laboratory",
       "room": "D5 | B3",
       "type": "lab"
     },
     {
       "time": "1:30-2:30",
       "short": "AIMA",
-      "subject": "Artificial Intelligence & Machine Learning",
+      "subject": "AI for multidisciplinary applications",
       "room": "NC-3 | D2"
     },
     {
       "time": "2:30-3:30",
       "short": "FEET",
-      "subject": "Fundamentals of Electrical Engineering",
+      "subject": "Fundamentals of Electronics Engineering",
       "room": "NC-8 | D2 B3"
     },
     {
@@ -49,7 +49,7 @@
     {
       "time": "5:30-6:30",
       "short": "FEET",
-      "subject": "Fundamentals of Electrical Engineering",
+      "subject": "Fundamentals of Electronics Engineering",
       "room": "NC-8 | D2 B3"
     }
   ],
@@ -58,13 +58,13 @@
     {
       "time": "1:30-2:30",
       "short": "AIMA",
-      "subject": "Artificial Intelligence & Machine Learning",
+      "subject": "AI for multidisciplinary applications",
       "room": "NC-3 | D2"
     },
     {
       "time": "2:30-3:30",
       "short": "FEET",
-      "subject": "Fundamentals of Electrical Engineering",
+      "subject": "Fundamentals of Electronics Engineering",
       "room": "NC-8 | D2 B3"
     },
     {
@@ -86,20 +86,20 @@
     {
       "time": "10:30-12:30",
       "short": "DPI LAB",
-      "subject": "Digital Principles & Interfaces Laboratory",
+      "subject": "Digital Public infrastructure Laboratory",
       "room": "D1 | B2",
       "type": "lab"
     },
     {
       "time": "1:30-2:30",
       "short": "AIMA",
-      "subject": "Artificial Intelligence & Machine Learning",
+      "subject": "AI for multidisciplinary applications",
       "room": "NC-3 | D2"
     },
     {
       "time": "2:30-4:30",
       "short": "FEET LAB",
-      "subject": "Fundamentals of Electrical Engineering Laboratory",
+      "subject": "Fundamentals of Electronics Engineering Laboratory",
       "room": "D2 | B3",
       "type": "lab"
     }
