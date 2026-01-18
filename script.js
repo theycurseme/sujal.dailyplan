@@ -1,32 +1,31 @@
 fetch("data.json")
   .then(res => res.json())
-  .then(data => renderTimetable(data));
+  .then(data => {
+    const container = document.getElementById("timetable");
 
-function renderTimetable(data) {
-  const app = document.getElementById("app");
-  app.innerHTML = "";
+    for (const day in data) {
+      const dayDiv = document.createElement("div");
+      dayDiv.className = "day";
 
-  for (const day in data) {
-    const dayBlock = document.createElement("div");
-    dayBlock.className = "day";
+      dayDiv.innerHTML = `<h2>${day}</h2>`;
+      const grid = document.createElement("div");
+      grid.className = "grid";
 
-    const heading = document.createElement("h2");
-    heading.innerText = day;
-    dayBlock.appendChild(heading);
+      data[day].forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+        if (item.type === "lab") card.classList.add("lab");
 
-    data[day].forEach(item => {
-      const slot = document.createElement("div");
-      slot.className = "slot";
+        card.innerHTML = `
+          <div class="subject">${item.subject}</div>
+          <div class="time">${item.time}</div>
+          <div class="room">${item.room}</div>
+        `;
 
-      slot.innerHTML = `
-        <strong>${item.time}</strong><br>
-        ${item.subject}<br>
-        <small>${item.room}</small>
-      `;
+        grid.appendChild(card);
+      });
 
-      dayBlock.appendChild(slot);
-    });
-
-    app.appendChild(dayBlock);
-  }
-}
+      dayDiv.appendChild(grid);
+      container.appendChild(dayDiv);
+    }
+  });
